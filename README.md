@@ -11,6 +11,6 @@ cd delator
 bash delator.sh 
 
 
-(Los virus añadidos fueron creador propiamente por VW_)
+>Los virus añadidos fueron creador propiamente por VW_
 
-!Tasteados y funcionan! 
+>!Tasteados y funcionan! 
