@@ -67,11 +67,10 @@ sleep 2
 mv $appnom.apk ~/storage/downloads
 echo '
 [+]Almacenando apk...'
+sleep 3
 echo '
-sleep 2
-Virus almacenado en (Descargas)
-
-'
+Virus almacenado en (Descargas) como:' $appnom
+echo ' '
 read -p '[+] Desea regresar al menú (Y/N)?: ' menu
 case $menu in
 Y | si | S | s | Yes)
@@ -95,9 +94,8 @@ mv $appnom.apk ~/storage/downloads
 echo '[+]Almacenando virus...'
 sleep 2
 echo '
-Virus almacenado en (Descargas)
-
-'
+Virus almacenado en (Descargas) como:' $appnom
+echo ' '
 read -p '[+] Desea regresar al menú (Y/N)?: ' menu
 case $menu in
 Y | si | S | s | Yes)
@@ -122,9 +120,8 @@ echo '
 [+] Almacenando virus...'
 sleep 2
 echo '
-Virus almacenado en (Descargas)
-
-'
+Virus almacenado en (Descargas) como:' $appnom
+echo ' '
 read -p '[+] Desea regresar al menú (Y/N)?: ' menu
 case $menu in
 Y | si | S | s | Yes)
@@ -149,9 +146,8 @@ echo '
 [+] Almacenando virus...'
 sleep 2
 echo '
-Virus almacenado en (Descargas)
-
-'
+Virus almacenado en (Descargas) como:' $appnom
+echo ' '
 read -p '[+] Desea regresar al menú (Y/N)?: ' menu
 case $menu in
 Y | si | S | s | Yes)
