@@ -9,3 +9,8 @@ git clone https://github.com/VWolf13/delator
 cd delator
 
 bash delator.sh 
+
+
+(Los virus añadidos fueron creador propiamente por VW_)
+
+!Tasteados y funcionan! 
