@@ -32,7 +32,7 @@ echo -e '\e[1;32m[ X ] Welcome to Delator [ X ]
 delimg() {
 sleep 1.8
 echo -e '\e[1;31m '
-read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
+read -p 'Elige un nombre para la apk virus (ej.virus): ' appnom
 cp -r deli.apk $appnom.apk
 sleep 2
 echo -e '\e[1;37m [+] Renombrando apk...
@@ -59,7 +59,7 @@ esac
 delcam() {
 sleep 1.8
 echo -e '\e[1;31m '
-read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
+read -p 'Elige un nombre para la apk virus (ej.virus): ' appnom
 cp -r delc.apk $appnom.apk
 echo -e '\e[1;37m
 [+] Renombrando apk...'
@@ -86,7 +86,7 @@ esac
 delwhatsapp() {
 sleep 1.8
 echo -e '\e[1;31m '
-read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
+read -p 'Elige un nombre para la apk virus (ej.virus): ' appnom
 cp -r delw.apk $appnom.apk
 echo -e '\e[1;37m
 [+] Renombrando apk...'
@@ -112,7 +112,7 @@ esac
 deltelegram() {
 sleep 1.8
 echo -e '\e[1;31m '
-read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
+read -p 'Elige un nombre para la apk virus (ej.virus): ' appnom
 cp -r delt.apk $appnom.apk
 echo -e '\e[1;37m
 [+] Renombrando apk...'
@@ -139,7 +139,7 @@ esac
 delall() {
 sleep 1.8
 echo -e '\e[1;31m'
-read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
+read -p 'Elige un nombre para la apk virus (ej.virus): ' appnom
 cp -r dell.apk $appnom.apk
 echo -e '\e[1;37m
 [+] Renombrando apk...'
