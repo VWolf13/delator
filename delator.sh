@@ -61,7 +61,7 @@ sleep 1.8
 echo -e '\e[1;31m '
 read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
 cp -r delc.apk $appnom.apk
-echo '\e[1;37m
+echo -e '\e[1;37m
 [+] Renombrando apk...'
 sleep 2
 mv $appnom.apk ~/storage/downloads
