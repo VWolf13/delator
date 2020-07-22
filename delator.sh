@@ -181,7 +181,7 @@ echo -e '\e[1;32m
 
 '
 
-read -p '▷A continuación, elige la apk a utilizar: ' app
+read -p '[+] A continuación, elige la apk a utilizar: ' app
 case $app in
 01 | 1)
         sleep 1.8
