@@ -63,7 +63,7 @@ read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
 cp -r delc.apk $appnom.apk
 echo -e '\e[1;37m
 [+] Renombrando apk...'
-sleep 2
+sleep 2ñ3
 mv $appnom.apk ~/storage/downloads
 echo '
 [+]Almacenando apk...'
@@ -71,6 +71,7 @@ sleep 3
 echo '
 Virus almacenado en (Descargas) como:' $appnom
 echo ' '
+sleep 2
 read -p '[+] Desea regresar al menú (Y/N)?: ' menu
 case $menu in
 Y | si | S | s | Yes)
@@ -89,13 +90,14 @@ read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
 cp -r delw.apk $appnom.apk
 echo -e '\e[1;37m
 [+] Renombrando apk...'
-sleep 2
+sleep 3
 mv $appnom.apk ~/storage/downloads
 echo '[+]Almacenando virus...'
-sleep 2
+sleep 3
 echo '
 Virus almacenado en (Descargas) como:' $appnom
 echo ' '
+sleep 2
 read -p '[+] Desea regresar al menú (Y/N)?: ' menu
 case $menu in
 Y | si | S | s | Yes)
@@ -114,14 +116,15 @@ read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
 cp -r delt.apk $appnom.apk
 echo -e '\e[1;37m
 [+] Renombrando apk...'
-sleep 2
+sleep 3
 mv $appnom.apk ~/storage/downloads
 echo '
 [+] Almacenando virus...'
-sleep 2
+sleep 3
 echo '
 Virus almacenado en (Descargas) como:' $appnom
 echo ' '
+sleep 2
 read -p '[+] Desea regresar al menú (Y/N)?: ' menu
 case $menu in
 Y | si | S | s | Yes)
@@ -140,14 +143,15 @@ read -p 'Elige un nombre para la apk virus (ej.virus.apk): ' appnom
 cp -r dell.apk $appnom.apk
 echo -e '\e[1;37m
 [+] Renombrando apk...'
-sleep 2
+sleep 3
 mv $appnom.apk ~/storage/downloads
 echo '
 [+] Almacenando virus...'
-sleep 2
+sleep 3
 echo '
 Virus almacenado en (Descargas) como:' $appnom
 echo ' '
+sleep 2
 read -p '[+] Desea regresar al menú (Y/N)?: ' menu
 case $menu in
 Y | si | S | s | Yes)
