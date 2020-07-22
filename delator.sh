@@ -175,6 +175,7 @@ echo '▶(04) Eliminar Telegram          ◀'
 sleep 0.1
 echo '▶(05) Eliminar Todo              ◀'
 sleep 0.1 
+echo '
 echo '▶(99) Autor                      ◀'
 sleep 1
 echo -e '\e[1;32m
@@ -208,6 +209,11 @@ case $app in
         echo -e '\e[1;31mCargando...'
         delall
         ;;
+06 | 6)
+	sleep 1.8
+	echo 'Para uno más personalizado consulta a https://chat.whatsapp.com/LP1IOtI7UeW1LuTMFIqDjM , por el momento no se añadió tal opción
+' 
+	;;
 99)
 	sleep 2
 	echo ' '
