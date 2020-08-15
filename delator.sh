@@ -175,7 +175,6 @@ echo '▶(04) Eliminar Telegram          ◀'
 sleep 0.1
 echo '▶(05) Eliminar Todo              ◀'
 sleep 0.1 
-echo '
 echo '▶(99) Autor                      ◀'
 sleep 1
 echo -e '\e[1;32m
